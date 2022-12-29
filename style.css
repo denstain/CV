@@ -1,0 +1,232 @@
+body{margin:0;}
+.leftSection {
+    background-color: gray;
+    width: 400px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.ramka {
+    background-color: white;
+    width: 190px;
+    height:275px;
+    border-radius: 10px;
+    padding:20px;
+}
+
+    .name {
+    font-size: 20px;
+    font-weight: 600;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    text-transform: uppercase;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+
+.job {
+    font-size: 12px;
+    font-weight: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gray;
+    font-style: italic;
+    text-transform:capitalize;
+    letter-spacing: 1px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.photo {
+    width: 190px;
+    height: 210px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,025);
+}
+.contacts {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform:inherit;
+    color: white;
+   display:inline-block;
+   
+}
+.nachaloContact {
+    border-bottom: 1px solid black;
+}
+
+.contactBlock {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.change{
+    padding: 10px 20px;
+}
+
+.zopaMira{
+    display: flex;
+    align-items: center;
+}
+
+.telep {
+    margin-left: 20px;   
+    color: white;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.rightSection {
+display: flex;
+flex-direction: column;
+padding: 20px 40px;
+flex: 1;
+
+}
+
+.surName {
+text-align: right;
+font-size: 50px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin: 0px;
+font-weight: 700;
+letter-spacing: 5px;
+word-spacing: 5px;
+}
+
+.jobName {
+text-align: right;
+font-size: 17px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin: 0px;
+margin-top: 7px;
+font-weight: 500;
+letter-spacing: 1px;
+word-spacing: 1px;
+color: gray;
+font-style: italic;
+}
+
+.profileContainer {
+    border-bottom: 1px solid black;
+    margin-top: 100px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.profileLable {
+    font-weight: 700;
+    margin: 0px;
+    font-size: 27px;
+    margin-left: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    letter-spacing: 3px;
+    font-style: italic;
+}
+
+.textRight {
+    text-indent: 20px;
+    font-size: 17px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gray;
+    font-style: italic;
+    
+}
+
+.buttonContainer {
+    display: flex;
+}
+
+.button {
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 40px;
+}
+
+.button:link {
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    cursor: default;
+}
+
+.textButton {
+    margin: 0px;
+    margin-left: 7px;
+    font-size: 17px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gray;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.textButton:hover {
+    color: black;
+}
+
+.workContainer {
+    display: flex;
+    border-bottom: 1px solid black;
+    margin-top: 100px;
+    padding: 0px;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.workLable {
+    font-weight: 700;
+    margin: 0px;
+    font-size: 27px;
+    margin-left: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    letter-spacing: 3px;
+    font-style: italic;
+}
+
+.textTwoRight {
+    align-items: center;
+    text-indent: 20px;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.dateRight {
+    text-align: right;
+    font-size: 11px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    font-weight: 700;
+    word-spacing: 1px;
+    color: black;
+    font-style: normal;
+}
+
+.firstJob {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
